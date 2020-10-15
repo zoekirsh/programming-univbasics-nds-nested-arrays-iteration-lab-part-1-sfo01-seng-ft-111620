@@ -5,7 +5,7 @@ def find_even_values(src)
   row_index = 0
   while row_index < src.length do 
     cell_index = 0 
-    while cell_index < row_index.length do 
+    while cell_index < src[row_index].length do 
       
       cell_index += 1 
     end
